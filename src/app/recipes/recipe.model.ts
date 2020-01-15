@@ -5,7 +5,7 @@ export class Recipe{
 
   constructor(name: string, desc: string, imagePath: string){
     this.name = name;
-    this.desc = desc;
+    this.description = desc;
     this.imagePath = imagePath;
   }
 }
